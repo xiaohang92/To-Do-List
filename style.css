@@ -10,13 +10,20 @@ h2{
     font-size: 25px;
 }
 
-body{
-    height: 100vh;
-    background: linear-gradient(
+#bg{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-position: center; */
+    background-size: cover;
+    /* height: 100vh; */
+    /* background: linear-gradient(
         125deg,
         #8052ec,
         #d161ff
-    )
+    ) */
 }
 
 #group{
@@ -29,7 +36,7 @@ body{
     padding:30px 40px;
 }
 #newtask{
-    background-color: white;
+    /* background-color: white; */
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
@@ -66,7 +73,7 @@ body{
     cursor: pointer;
 }
 #container{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 35px 20px;
     margin-top: 60px;
     border-radius: 10px;
